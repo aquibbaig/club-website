@@ -34,7 +34,8 @@ const outerTypo = {
 
 const styles = theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    marginTop: `10%`
   },
   cardContent: {
     padding: "0 0",

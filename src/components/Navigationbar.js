@@ -4,14 +4,14 @@ import Sitemetadata from "./sitemetadata";
 import "./navbarCSS.css";
 
 const textStyle = {
-  color: `#6d48e5`,
+  color: `black`,
   fontSize: `17px`,
   marginRight: `6px`,
   fontFamily: `Montserrat`
 };
 
 const logoStyle = {
-  color: `#6d48e5`,
+  color: `black`,
   letterSpacing: `2px`,
   marginLeft: `30px`,
   fontFamily: `Montserrat`,
@@ -22,7 +22,7 @@ const logoStyle = {
 const NavigationBar = () => (
   <div>
     <Sitemetadata />
-    <Navbar collapseOnSelect expand="lg" bg="light">
+    <Navbar collapseOnSelect expand="lg" bg="white">
       <Navbar.Brand href="/" style={logoStyle}>
         ZAIRZA
       </Navbar.Brand>
